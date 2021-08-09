@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Arcade Classic Regular';
+    src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+.footerBody {   
+    background-color: #2d2f31;
+    font-family: 'Arcade Classic Regular';
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spanHover:hover {
+    cursor: pointer;
+    border-bottom: red 1px solid;
+}
+
+.footerSite {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
