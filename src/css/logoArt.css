@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Arcade Classic Regular';
+    src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+.logoName {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    color: #243048;
+    user-select: none; 
+    animation: logoColors infinite linear 10s;
+    font-family: 'Arcade Classic Regular';
+    padding: 20px;
+}
+
+@keyframes logoColors {
+    0% {
+        color: #243048;
+    }
+
+    10% {
+        color: #482444;
+    }
+
+    20% {
+        color: #993f3f;
+    }
+
+    30% {
+        color: #99693f;
+    }
+
+    40% {
+        color: #99893f;
+    }
+    
+    50% {
+        color: #90993f;
+    }
+
+    60% {
+        color: #6f993f;
+    }
+
+    70% {
+        color: #4c993f;
+    }
+
+    80% {
+        color: #3f9970;
+    }
+
+    90% {
+        color: #3f9699;
+    }
+
+    100% {
+        color: #243048;
+    }
+
+}
+

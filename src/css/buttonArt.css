@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Arcade Classic Regular';
+    src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button;
+}
+
+.buttonArt {
+    font-family: 'Arcade Classic Regular';
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #243048;
+    animation: buttonColor infinite linear 10s;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 900;
+    user-select: none;
+}
+
+.buttonArt:hover {
+    transition: 0.6s ease-in;
+    background-color: #dfdbdbea;
+
+}
+
+@keyframes buttonColor {
+    0% {
+        color: #243048;
+    }
+
+    10% {
+        color: #482444;
+    }
+
+    20% {
+        color: #993f3f;
+    }
+
+    30% {
+        color: #99693f;
+    }
+
+    40% {
+        color: #99893f;
+    }
+    
+    50% {
+        color: #90993f;
+    }
+
+    60% {
+        color: #6f993f;
+    }
+
+    70% {
+        color: #4c993f;
+    }
+
+    80% {
+        color: #3f9970;
+    }
+
+    90% {
+        color: #3f9699;
+    }
+
+    100% {
+        color: #243048;
+    }
+
+}
