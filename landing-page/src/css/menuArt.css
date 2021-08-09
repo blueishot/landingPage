@@ -1,0 +1,53 @@
+.menuBody{
+    background-color: #5bc7c7;
+    height: 50px;
+    animation: menuColors infinite linear 10s;
+    justify-content: space-around;
+}
+
+@keyframes menuColors {
+    0% {
+        background-color: #5bc7c7;
+    }
+
+    10% {
+        background-color: #5bc7c7;
+    }
+
+    20% {
+        background-color: #5bc7c7;
+    }
+
+    30% {
+        background-color: #5bc7c7;
+    }
+
+    40% {
+        background-color: #5bc7c7;
+    }
+    
+    50% {
+        background-color: #217272;
+    }
+
+    60% {
+        background-color: #217272;
+    }
+
+    70% {
+        background-color: #217272;
+    }
+
+    80% {
+        background-color: #217272;
+    }
+
+    90% {
+        background-color: #062727;
+    }
+
+    100% {
+        background-color: #5bc7c7;
+    }
+
+}
