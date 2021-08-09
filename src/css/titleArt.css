@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Arcade Classic Regular';
+    src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+.titleStyle {
+    font-family: 'Arcade Classic Regular';
+    font-size: 30px;
+    font-weight: bolder;
+    color: #5bc7c7;
+    letter-spacing: 2px;
+    padding: 10px;
+    user-select: none;
+}

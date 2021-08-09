@@ -3,6 +3,9 @@
     height: 50px;
     animation: menuColors infinite linear 10s;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 40;
 }
 
 @keyframes menuColors {

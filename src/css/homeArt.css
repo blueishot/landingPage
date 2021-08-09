@@ -9,9 +9,18 @@ body {
     margin-right: auto;
     margin-top: auto;
     width: 50%;
+    height: 90%;
+    object-fit: contain ;
+    cursor: pointer;
 }
 
 SplideSlide {
     display: flex;
     justify-content: center;
+}
+
+.filmsStyle:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
 }

@@ -12,7 +12,6 @@
     user-select: none; 
     animation: logoColors infinite linear 10s;
     font-family: 'Arcade Classic Regular';
-    padding: 20px;
 }
 
 @keyframes logoColors {
